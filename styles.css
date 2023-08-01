@@ -1,16 +1,135 @@
 /* Write your CSS here! */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin-top: 8px;
     margin-bottom: 8px;
     margin-right: 8px;
     margin-left: 8px;
     display: block;
+    background-color: black;
+}
+
+header, main {
+    background-color: pink;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+#zelda-part {
+    background-color: gold;
+    border: 4px solid skyblue;
+    padding: 80px;
+    margin: 30px 100px;
+}
+
+.zelda-image {
+    max-height: fit-content;
+    max-width: 170px;
+}
+
+#pixel-part {
+    background-color:deepskyblue;
+    border: 4px solid darkblue;
+    padding: 80px;
+    margin: 30px 100px;
+}
+
+.pixel-image {
+    max-height:fit-content;
+    max-width:fit-content;
+}
+
+#nine-part {
+    background-color: burlywood;
+    border: 4px solid brown;
+    padding: 80px;
+    margin: 30px 100px;
+}
+
+.nine-image {
+    max-height:fit-content;
+    max-width: fit-content;
+}
+
+#theatre-part {
+    background-color: blue;
+    border: 4px solid red;
+    padding: 80px;
+    margin: 30px 100px;
+}
+
+.theatre-image {
+    max-height:fit-content;
+    max-width: fit-content;
+}
+
+#overwatch-part {
+    background-color: rgb(72, 19, 122);
+    border: 4px solid orange;
+    padding: 80px;
+    margin: 30px 100px;
+}
+
+.overwatch-image {
+    max-height:fit-content;
+    max-width: fit-content;
+    background-color: white;
+}
+
+.float-right {
+    float: right;
+}
+
+.image-border {
+    border: 5px goldenrod;
+}
+
+footer {
+    font-size: 0.8rem;
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    padding: 10 px 20px;
 }
 
 #mainHeading {
+    color: red;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+p.redParagraph {
     color: red;
 }
 
 p.funParagraph {
     color: green;
+}
+
+h3 {
+    color: white;
+}
+
+img {
+    width: 25%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
 }
