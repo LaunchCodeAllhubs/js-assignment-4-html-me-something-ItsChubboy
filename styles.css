@@ -13,7 +13,7 @@ body {
 }
 
 header, main {
-    background-color: pink;
+    background-color: rgb(62, 58, 58);
     text-align: center;
     width: 100%;
     padding: 10px 20px;
@@ -22,7 +22,7 @@ header, main {
 #zelda-part {
     background-color: black;
     border: 4px solid skyblue;
-    padding: 80px;
+    padding: 90px;
     margin: 30px 100px;
 }
 
@@ -34,7 +34,7 @@ header, main {
 #pixel-part {
     background-color:black;
     border: 4px solid rgb(123, 194, 218);
-    padding: 80px;
+    padding: 90px;
     margin: 30px 100px;
 }
 
@@ -46,7 +46,7 @@ header, main {
 #nine-part {
     background-color: black;
     border: 4px solid brown;
-    padding: 80px;
+    padding: 90px;
     margin: 30px 100px;
 }
 
@@ -58,7 +58,7 @@ header, main {
 #theatre-part {
     background-color: black;
     border: 4px solid rgb(41, 41, 224);
-    padding: 80px;
+    padding: 90px;
     margin: 30px 100px;
 }
 
@@ -70,7 +70,7 @@ header, main {
 #overwatch-part {
     background-color: black;
     border: 4px solid rgb(89, 23, 144);
-    padding: 80px;
+    padding: 90px;
     margin: 30px 100px;
 }
 
@@ -93,12 +93,16 @@ footer {
     background-color: black;
     text-align: center;
     width: 100%;
-    padding: 10 px 20px;
+    padding: 10px 20px;
 }
 
 #mainHeading {
     color: red;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    padding:10px 20px;
 }
 
 ul {
