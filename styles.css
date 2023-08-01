@@ -19,14 +19,14 @@ header, main {
     padding: 10px 20px;
 }
 
-#zelda-part {
+#totk-part {
     background-color: black;
     border: 4px solid skyblue;
     padding: 90px;
     margin: 30px 100px;
 }
 
-.zelda-image {
+.totk-image {
     max-height: fit-content;
     max-width: 170px;
 }
